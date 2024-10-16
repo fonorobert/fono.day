@@ -1,0 +1,37 @@
+{{ define "main" }}
+<content>
+  <h1>{{ .Title }}</h1>
+  {{ if .Data.Singular }}
+  <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
+  <br/>
+  <small>
+    <a href="{{ "/log" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+    {{ range .Pages }}
+    
+    <article>
+      <!--<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>-->
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </article>
+    <br/>
+    <hr/>
+    <br/>
+    {{ else }}
+    <article>
+      No posts yet
+    </article>
+    {{ end }}
+  {{ if .Data.Singular }}
+  {{else}}
+    <small>
+      <div>
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+        {{ end }}
+      </div>
+    </small>
+    {{ end }}
+</content>
+{{ end }}
