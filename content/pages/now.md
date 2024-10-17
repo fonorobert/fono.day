@@ -4,10 +4,23 @@ menu = "main"
 weight = 4
 +++
 
-I am working on a collection of basic management tools and methods, prototypes for SaaS software for small businesses and countless other side projects.
+Robert Fonó, Hungarian docu photographer/photojournalist.
 
-My current focus project is [Project Cactus](/projects/project-cactus/), a prototype for a business tool.
+Portfolio: [fonorobert.com](https://fonorobert.com)
+Email: [robert@fonorobert.com](mailto:robert@fonorobert.com)
 
-I am knee deep in the long project of discovering my [raison d'etre](/tags/meaning/)
+---
 
-Since December 2022 I've been making a daily photography project, [Project 365](/projects/project-365/).
+Living in Budapest, XII. district. Working freelance, mainly website building. Current main project is a web app for an educational project.
+
+---
+
+Working on ongoing project about Hungary and my Hungarian identity. What it means for me to be Hungarian? What *is* being Hungarian, anyway? Working title: HUNGARIAN DREAM
+
+---
+
+Interests include:
+- smol web
+- tech from youth (mid 2000s)
+- "attached" documentary photography
+- photojournalism as extreme sport

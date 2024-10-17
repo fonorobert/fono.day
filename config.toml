@@ -5,7 +5,7 @@ baseURL = "/"
 theme = 'fono.day-theme'
 
 # Basic metadata configuration for your blog.
-title = "fono.day"
+title = "\\-\\"
 author = "Robert Fonó"
 copyright = "© 2024, Robert Fonó."
 languageCode = "hu-HU"
@@ -26,11 +26,11 @@ paginate = 7
   tags = "/tags/:slug"
   pages = "/:slug"
 
-[menus]
-  [[menus.main]]
-    name = "fono.pics"
-    url = "https://fono.pics"
-    weight = 5
+#[menus]
+#  [[menus.main]]
+#    name = "work(hu)"
+#    url = "https://fonorobert.com"
+#    weight = 5
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
