@@ -4,29 +4,46 @@
   <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
   <br/>
   <small>
-    <a href="{{ "/log" | relURL }}">Remove filter</a>
+    <a href="{{ "/" }}">Remove filter</a>
   </small>
   {{ end }}
-    {{ range (where site.RegularPages "Section" "log") }}
-    
+
+  <!-- Setup pagination -->
+  {{ $paginator := .Paginate (where site.RegularPages "Section" "log") 3 }}
+
+  {{ range $paginator.Pages }}
     <article>
       <h2>{{ .Title }}</h2>
       {{ .Content }}
     </article>
     <br/>
-    {{ else }}
+  {{ else }}
     <article>
       No posts yet
     </article>
+  {{ end }}
+
+ <!-- Pagination controls -->
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}">↼<small>newer</small></a>
     {{ end }}
+
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" ><small>older</small>⇀</a>
+    {{ end }}
+  </nav>
+
   {{ if .Data.Singular }}
   {{else}}
     <small>
-      <div>
+      <div class="taglist">
         {{ range .Site.Taxonomies.tags }}
         <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
         {{ end }}
       </div>
     </small>
-    {{ end }}
+  {{ end }}
+
+ 
 </content>

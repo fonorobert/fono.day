@@ -1,40 +1,24 @@
-{{ define "main" }}
 <content>
   <h1>{{ .Title }}</h1>
   {{ if .Data.Singular }}
   <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
   <br/>
   <small>
-    <a href="{{ "/" }}">Remove filter</a>
+    <a href="{{ "/log" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
-
-  <!-- Setup pagination -->
-  {{ $paginator := .Paginate (where site.RegularPages "Section" "log") 3 }}
-
-  {{ range $paginator.Pages }}
+    {{ range (where site.RegularPages "Section" "log") }}
+    
     <article>
       <h2>{{ .Title }}</h2>
       {{ .Content }}
     </article>
     <br/>
-  {{ else }}
+    {{ else }}
     <article>
       No posts yet
     </article>
-  {{ end }}
-
- <!-- Pagination controls -->
-  <nav class="pagination">
-    {{ if $paginator.HasPrev }}
-      <a href="{{ $paginator.Prev.URL }}">↼<small>newer</small></a>
     {{ end }}
-
-    {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}" ><small>older</small>⇀</a>
-    {{ end }}
-  </nav>
-
   {{ if .Data.Singular }}
   {{else}}
     <small>
@@ -44,8 +28,5 @@
         {{ end }}
       </div>
     </small>
-  {{ end }}
-
- 
+    {{ end }}
 </content>
-{{ end }}
