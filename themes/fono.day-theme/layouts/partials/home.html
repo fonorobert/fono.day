@@ -13,7 +13,7 @@
 
   {{ range $paginator.Pages }}
     <article>
-      <h2>{{ .Title }}</h2>
+      <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ .Content }}
     </article>
     <br/>
