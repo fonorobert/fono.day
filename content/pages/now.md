@@ -20,7 +20,12 @@ Working on ongoing project about Hungary and my Hungarian identity. What it mean
 ---
 
 Interests include:
-- smol web
-- tech from youth (mid 2000s)
+- smol web as social media alternative
 - "attached" documentary photography
-- photojournalism as extreme sport
+- borderlands of art, personal diary and documentary photography
+- space exploration
+- whatever catches my attention today
+
+---
+
+[What is this page?](https://nownownow.com/about)
