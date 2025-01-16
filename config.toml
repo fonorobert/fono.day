@@ -7,8 +7,8 @@ theme = 'fono.day-theme'
 # Basic metadata configuration for your blog.
 title = "\\-\\"
 author = "Robert Fonó"
-copyright = "© 2024, Robert Fonó."
-languageCode = "hu-HU"
+copyright = "© 2025, Robert Fonó."
+languageCode = "en-EN"
 
 [markup.goldmark.renderer]
   unsafe = true 
