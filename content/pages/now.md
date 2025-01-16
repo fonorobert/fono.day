@@ -4,7 +4,7 @@ menu = "main"
 weight = 4
 +++
 
-Robert Fonó, Hungarian docu photographer/photojournalist.
+Robert Fonó, Hungarian photographer.
 
 Portfolio: [fonorobert.com](https://fonorobert.com)
 Email: [robert@fonorobert.com](mailto:robert@fonorobert.com)
