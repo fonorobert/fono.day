@@ -30,7 +30,7 @@ paginate = 7
   [[menus.main]]
     name = "pics"
     url = "https://fono.pics"
-    weight = 5
+    weight = 2
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
