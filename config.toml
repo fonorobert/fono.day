@@ -29,7 +29,7 @@ paginate = 7
 [menus]
   [[menus.main]]
     name = "pics"
-    url = "https://fono.pics"
+    url = "https://pics.fono.day"
     weight = 2
 
 [params]
