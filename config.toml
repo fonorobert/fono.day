@@ -22,7 +22,8 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 paginate = 7
 [permalinks]
-  log = "/log/:year/:month/:slug/"
+  log = "/log/:slug/"
+  # log = "/log/:year/:month/:slug/"
   tags = "/tags/:slug"
   pages = "/:slug"
 
