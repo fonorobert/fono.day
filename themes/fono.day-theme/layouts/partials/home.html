@@ -1,49 +1,27 @@
-<content>
-  <h1>{{ .Title }}</h1>
-  {{ if .Data.Singular }}
-  <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
-  <br/>
-  <small>
-    <a href="{{ "/" }}">Remove filter</a>
-  </small>
+<content class="home">
+  <h1>Latest log:</h1>
+  {{ with (index (where site.RegularPages "Type" "log").ByDate.Reverse 0) }}
+    <article>
+      <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ .Summary }}
+    {{ if .Truncated }}
+      <a href="{{ .RelPermalink }}">continue reading...</a>
+    {{ end }}
+    </article>
   {{ end }}
-
-  <!-- Setup pagination -->
-  {{ $paginator := .Paginate (where site.RegularPages "Section" "log") 3 }}
-
-  {{ range $paginator.Pages }}
+  <br/>
+  <p><a href="/log">• see all log entries •</a></p>
+  <br/>
+  <br/>
+  <h1>Latest pics:</h1>
+  {{ with (index (where site.RegularPages "Section" "pics").ByDate.Reverse 0) }}
     <article>
       <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ .Content }}
     </article>
-    <br/>
-  {{ else }}
-    <article>
-      No posts yet
-    </article>
   {{ end }}
-
- <!-- Pagination controls -->
-  <nav class="pagination">
-    {{ if $paginator.HasPrev }}
-      <a href="{{ $paginator.Prev.URL }}">↼<small>newer</small></a>
-    {{ end }}
-
-    {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}" ><small>older</small>⇀</a>
-    {{ end }}
-  </nav>
-
-  {{ if .Data.Singular }}
-  {{else}}
-    <small>
-      <div class="taglist">
-        {{ range .Site.Taxonomies.tags }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
-        {{ end }}
-      </div>
-    </small>
-  {{ end }}
+  <br/>
+  <p><a href="/pics">• see all picture log entries •</a></p>
 
  
 </content>
