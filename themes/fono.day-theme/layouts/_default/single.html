@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-<h2>#{{ .Title }}</h2>
+<h1>{{ .Title }}</h1>
 
 <content>
   {{ .Content }}
 </content>
-<p>
+{{/*  <p>
   {{ range (.GetTerms "tags") }}
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
-</p>
+</p>  */}}
 {{ end }}
