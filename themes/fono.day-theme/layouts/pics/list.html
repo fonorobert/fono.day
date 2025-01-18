@@ -1,5 +1,5 @@
 {{ define "main" }}
-<content>
+<content class="pics">
     <h1>{{ .Title }}</h1>
     {{ if .Data.Singular }}
     <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
@@ -10,13 +10,15 @@
     {{ end }}
   
     <!-- Setup pagination -->
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "posts") 3 }}
+    {{ $paginator := .Paginate (where site.RegularPages "Section" "pics") 3 }}
   
     {{ range $paginator.Pages }}
       <article>
         <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         {{ .Content }}
       </article>
+      <br/>
+      <hr/>
       <br/>
     {{ else }}
       <article>

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<content>
+<content class="log">
     <h1>{{ .Title }}</h1>
     {{ if .Data.Singular }}
     <span style="margin-bottom:0">Filtering for "{{ .Title }}"</span>
@@ -10,7 +10,7 @@
     {{ end }}
   
     <!-- Setup pagination -->
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "posts") 3 }}
+    {{ $paginator := .Paginate (where site.RegularPages "Section" "log") 3 }}
   
     {{ range $paginator.Pages }}
       <article>
