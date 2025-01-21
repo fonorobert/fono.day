@@ -28,4 +28,8 @@ Interests include:
 
 ---
 
+[Some of my current favorite photographers](/photographers)
+
+---
+
 [What is this page?](https://nownownow.com/about)
