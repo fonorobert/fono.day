@@ -11,16 +11,18 @@ Email: [robert@fonorobert.com](mailto:robert@fonorobert.com)
 
 ---
 
-Living in Budapest, XII. district. Working freelance, mainly website building. Current main project is a web app for an educational project.
+Living in district XII of  Budapest. IT admin for a dayjob, photography on the street and in personal life any other time.
 
 ---
 
 Working on ongoing project about Hungary and my Hungarian identity. What it means for me to be Hungarian? What *is* being Hungarian, anyway? Working title: HUNGARIAN DREAM
+An offshoot of this is the sub-project THE FINAL YEAR about an election year and the country's descent into authoritarianism in Hungary.
 
 ---
 
 Interests include:
 - smol web as social media alternative
+- [tilde.town](https://tilde.town)
 - "attached" documentary photography
 - borderlands of art, personal diary and documentary photography
 - space exploration
