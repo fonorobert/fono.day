@@ -11,7 +11,7 @@ Email: [robert@fonorobert.com](mailto:robert@fonorobert.com)
 
 ---
 
-Living in district XII of  Budapest. IT admin for a dayjob, photography on the street and in personal life any other time.
+Based in district XII of  Budapest. IT business analyst for a dayjob, photography on the street and in personal life any other time.
 
 ---
 
@@ -21,10 +21,10 @@ An offshoot of this is the sub-project THE FINAL YEAR about an election year and
 ---
 
 Interests include:
+- borderlands of art, personal diary and documentary photography
 - smol web as social media alternative
 - [tilde.town](https://tilde.town)
-- "attached" documentary photography
-- borderlands of art, personal diary and documentary photography
+- all kinds of documentary photography
 - space exploration
 - whatever catches my attention today
 
