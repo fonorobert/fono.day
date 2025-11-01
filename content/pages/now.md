@@ -22,9 +22,9 @@ An offshoot of this is the sub-project THE FINAL YEAR about an election year and
 
 Interests include:
 - borderlands of art, personal diary and documentary photography
-- smol web as social media alternative
+-  all kinds of documentary photography
+- smol web resurgence as social media alternative
 - [tilde.town](https://tilde.town)
-- all kinds of documentary photography
 - space exploration
 - whatever catches my attention today
 

@@ -35,3 +35,7 @@ His "Beyond the Fall" is perhaps the best project on the transformation of Easte
 **TRENT PARKE**  
 Primarily known for strong, surreal black-and-white work. Beyond his visual style lie very philosophical, contemplative projects about humanity. Found his latest, "Monument" first.  
 [link](https://www.magnumphotos.com/arts-culture/trent-parke-monument-book)
+
+**BOUWE BROUWER**
+Dutch photographer and schoolteacher, shooting his home town, refugee children, small town life and atmosphere, exclusively in monochrome. There is a calmness in his images, even the ones that are sort of action shots.  
+[link](https://www.bouwebrouwer.org)
