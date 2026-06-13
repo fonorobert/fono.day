@@ -11,12 +11,11 @@ Email: [robert@fonorobert.com](mailto:robert@fonorobert.com)
 
 ---
 
-Based in district XII of  Budapest. IT business analyst for a dayjob, photography on the street and in personal life any other time.
+Based in district XII of  Budapest. Software team lead for a dayjob, photography on the street and in personal life any other time.
 
 ---
 
-Working on ongoing project about Hungary and my Hungarian identity. What it means for me to be Hungarian? What *is* being Hungarian, anyway? Working title: HUNGARIAN DREAM
-An offshoot of this is the sub-project THE FINAL YEAR about an election year and the country's descent into authoritarianism in Hungary.
+Working on ongoing project using a daily photography practice to invetigate decontextualization of images in a social media world. Working title: ALGO
 
 ---
 
