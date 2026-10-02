@@ -39,3 +39,7 @@ Primarily known for strong, surreal black-and-white work. Beyond his visual styl
 **BOUWE BROUWER**
 Dutch photographer and schoolteacher, shooting his home town, refugee children, small town life and atmosphere, exclusively in monochrome. There is a calmness in his images, even the ones that are sort of action shots.  
 [link](https://www.bouwebrouwer.org)
+
+**MATT STUART**  
+London-based street photographer, sitting somewhere between classic and new wave street photography.
+[link](https://www.mattstuart.com)
